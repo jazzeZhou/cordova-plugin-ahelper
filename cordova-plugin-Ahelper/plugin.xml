@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-Ahelper" version="0.0.1"
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Ahelper</name>
+  <description>Androidhelper</description>
+
+  <js-module name="Ahelper" src="www/Ahelper.js">
+    <clobbers target="window.plugins.Ahelper"/>
+  </js-module>
+  <!-- android -->
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Ahelper">
+        <param name="android-package" value="com.sroom.ahelper.Ahelper"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Ahelper.java" target-dir="src/com/sroom/ahelper"/>
+
+  </platform>
+
+
+</plugin>

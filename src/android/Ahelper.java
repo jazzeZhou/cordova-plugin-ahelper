@@ -22,6 +22,7 @@ public class Ahelper extends CordovaPlugin {
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
     if (ACTION_EXIT.equals(action)) {
+      
       System.exit(0);
     }
     return true;

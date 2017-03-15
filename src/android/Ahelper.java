@@ -23,6 +23,7 @@ public class Ahelper extends CordovaPlugin {
     if (ACTION_EXIT.equals(action)) {
       System.exit(0);
     }
+    
     return true;
   }
 }

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-Ahelper",
+  "version": "0.0.1",
+  "description": "Cordova Ahelper Plugin",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jazzeZhou/cordova-plugin-Ahelper"
+  },
+  "keywords": [
+    "cordova",
+    "Ahelper",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "0.0.0": {
+        "cordova-android": ">=4.0.0"
+      },
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "jazzeZhou",
+  "license": "Apache-2.0"
+}

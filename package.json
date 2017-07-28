@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-ahelper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Cordova Ahelper Plugin",
   "cordova": {
     "platforms": [
